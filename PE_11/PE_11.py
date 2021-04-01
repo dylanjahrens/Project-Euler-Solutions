@@ -1,3 +1,6 @@
+#Find the greatest product of four adjacent numbers in the same direction 
+# (up, down, left, right, or diagonally) in the 20×20 grid
+
 with open("PE_11_input.txt", "r") as input_file:
     file_lines = input_file.readlines()
     input_grid = [line.strip() for line in file_lines]
